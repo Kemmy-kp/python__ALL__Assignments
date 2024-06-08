@@ -1,0 +1,42 @@
+
+================================
+2023-09-28 12:07:46.909581E-Note Title : Python Django
+E-Note Description : Django Framework 
+               E-Note Generator : Heena
+================================
+2023-09-28 12:08:44.734722
+E-Note Title : python
+E-Note Description : django
+               E-Note Generator : pammy
+================================
+2023-09-28 12:10:34.030816
+E-Note Title : python
+E-Note Description : django
+               E-Note Generator : pammy
+================================
+2023-09-28 12:10:34.036575
+E-Note Title : python
+E-Note Description : django
+               E-Note Generator : pammy
+================================
+2023-09-28 12:17:16.633824
+E-Note Title : python
+E-Note Description : django
+               E-Note Generator : pammy
+================================
+2023-09-28 12:18:01.707040
+E-Note Title : python
+E-Note Description : django
+               E-Note Generator : pammy
+================================
+2023-09-28 12:25:01.292012
+E-Note Title : python
+E-Note Description : django
+               E-Note Generator : pammy
+================================
+
+================================
+2024-01-28 12:58:05.649482
+E-Note Title : php
+E-Note Description : 123
+               E-Note Generator : pammy

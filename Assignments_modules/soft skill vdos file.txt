@@ -1,0 +1,81 @@
+personal information:=============
+
+Hi! My self pammy rakholiya. I have been trained in advanced concepts of AI and machine learning. Currently, I am a professional AI assistant, helping people by answering their questions and solving their problems.
+
+My key personality traits include creativity, strong analytical skills, and a passion for problem-solving. I love exploring new ideas and finding solutions to complex issues.
+
+My interest in technology stems from its ever-evolving nature and the endless scope for learning and growth it offers. I chose this career path because I believe technology is a powerful tool to make the world a better place, and I want to contribute meaningfully by being a part of it.
+
+Technology:======================
+● Discuss plans for upgrading your technology skills:
+I am planning to upgrade my technology skills in backend Python withdjango to stay current and enhance my expertise. Here are my plans:
+
+● Mention any relevant courses, certifications, or resources you are pursuing.
+oddo,flask
+Advanced Python Programming: I am enrolled in an advanced Python programming course that covers topics like asynchronous programming, advanced data structures, and performance optimization.
+
+Machine Learning with Python: This certification focuses on using Python for machine learning, covering libraries like TensorFlow, scikit-learn, and Keras.
+
+Data Science Specialization: I am pursuing a data science specialization which includes courses on data analysis, visualization, and big data techniques using Python.
+
+● Share your approach to continuous learning and professional development.
+Practice and Projects:
+Conferences and Workshops: 
+Community Engagement:
+Books and Publications: 
+Online Platforms:
+
+project=================
+
+In this project i have tried to make it as simple as possible so that user can access all the features easily.
+If i talk about key features then the most prominent one is security as well as user friendly environment.
+I have also implemented payment integration,login logout and profile management.
+The cart and wishlist are also very easy to manage to users.
+For the seller side adding product and edit or delete them is also the highlighting feature of my project.
+
+ HR Questions===========
+● Outline your career goals and where you see yourself in the next few years.
+
+#Roles and Industries:
+
+1)Software Development: I aim to work as a software developer, specializing in Python, to build scalable and efficient applications.
+
+2)Data Science and Machine Learning: I am particularly interested in roles such as Data Scientist or Machine Learning Engineer, where I can leverage Python for data analysis, predictive modeling, and algorithm development.
+
+3)Tech Startups and Innovation: I am drawn to the dynamic environment of tech startups, where I can contribute to innovative projects and cutting-edge technology.
+
+#Specific Goals and Milestones:
+1)Achieving Advanced Certifications: In the next year, I plan to obtain advanced certifications in Python programming, machine learning, and data science from recognized institutions.
+
+2)Gaining Hands-on Experience: Over the next 2-3 years, I aim to work on diverse projects that allow me to apply my skills in real-world scenarios, focusing on problem-solving and optimization.
+
+3)Leadership Roles: In 3-5 years, I aspire to take on leadership roles such as a Team Lead or Project Manager, where I can mentor junior developers and lead innovative projects.
+
+4)Continuous Learning: I am committed to continuous learning and professional development, regularly updating my skills and knowledge to adapt to emerging technologies and industry demands.
+
+5)Publishing and Speaking: I aim to publish articles, contribute to technical blogs, and speak at industry conferences to share my knowledge and experiences with the broader community.
+
+ Mock Interview, & Assessment=================
+
+Simulate Real Interview Scenarios: Organize mock interview sessions where students can experience realistic interview environments. This includes both technical and behavioral interviews.
+
+Role-Playing: Assign roles such as interviewer and interviewee, and rotate these roles to give students a comprehensive understanding of the interview process from both perspectives.
+
+Feedback and Evaluation: Provide constructive feedback after each mock interview, highlighting strengths and areas for improvement to help students refine their skills.
+
+#Guest Speakers and Experts
+
+Industry Insights: Invite guest speakers or industry experts to share their experiences and insights on interview best practices and current industry trends.
+
+Workshops and Seminars: Conduct workshops and seminars led by these experts, focusing on key topics such as resume building, common interview questions, and effective communication skills.
+
+Networking Opportunities: Create opportunities for students to interact with these professionals, allowing them to build connections and gain valuable industry perspectives.
+
+#Q&A Sessions
+
+Interactive Sessions: Host interactive Q&A sessions where students can ask specific questions related to interviews and receive personalized advice from experts and facilitators.
+
+Clarification and Guidance: Address common concerns and myths about interviews, providing clear and practical guidance to help students feel more confident and prepared.
+
+Individual Consultations: Offer one-on-one consultations for personalized feedback and advice, tailored to each student’s unique situation and career goals.
+

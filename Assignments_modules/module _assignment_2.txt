@@ -1,0 +1,488 @@
+
+1)Write a Python program to check if a number is positive, negative or
+zero.
+
+num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num < 0:
+   print("negative number")
+else:
+   print("Zero")
+
+o/p: 
+    Enter a number:45
+     positive number 
+    Enter a number: -45
+     negative number
+    Enter a number:0
+     zero 
+
+==================================
+
+2)Write a Python program to get the Factorial number of given number.
+
+num = int(input("Enter a number : "))
+fact = 1
+
+for i in range(1, num + 1):
+        fact = fact * i
+print("The factorial is: ",fact)
+
+#============while loop========
+i=int(input("enter number"))
+fact=1
+while i>0:
+    fact=fact*i
+    i=i-1
+print("factorial=",fact)
+
+
+
+o/p:
+
+Enter a number : 5
+The factorial is:  120
+
+enter number6
+factorial= 720
+
+=========================================================
+
+3)Write a Python program to get the Fibonacci series of given range.
+
+x=0
+y=1
+n= 10
+
+
+for i in range(n):
+    z=x+y
+    x=y
+    y=z
+    print(z)
+
+o/p: 1 2 3 5 8 13 21 34 55 89
+
+=============================================================
+4)How memory is managed in Python?
+==>Memory management in Python is handled by the Python memory manager, which is responsible for allocating and deallocating memory for objects during the program's runtime. Python employs several strategies to manage memory efficiently:
+
+Reference Counting: Python uses a reference counting mechanism to keep track of how many references (pointers) are pointing to an object. When the reference count drops to zero, meaning there are no more references to the object, the memory associated with that object is deallocated automatically.
+
+Garbage Collection: While reference counting is effective, it can't handle circular references where objects reference each other, preventing their reference count from reaching zero. To address this, Python also employs a garbage collector that periodically identifies and deallocates objects with no reachable references.
+
+Automatic Memory Management: Python's memory manager automatically allocates memory for objects when they are created and releases the memory when the objects are no longer in use. This process is transparent to the programmer.
+
+Memory Pools: Python memory manager uses a technique called "memory pooling" to manage memory more efficiently. It allocates memory in blocks of fixed sizes and then assigns these blocks to objects. This reduces fragmentation and overhead.
+
+Memory Optimization Techniques: Python optimizes memory usage by reusing objects when possible. For instance, small integers and strings are cached and reused to avoid the overhead of creating new objects for frequently used values.
+
+Cython and Extensions: When integrating Python with C or other languages, memory management might be handled by the underlying language's memory manager. Tools like Cython allow for more control over memory management when needed.
+
+Memory Views: Python supports memory views that allow arrays and other sequences to share memory with other objects. This can be useful for efficient memory usage, especially in numerical and scientific computing.
+
+Memory Profiling: Python offers tools for profiling memory usage to identify memory leaks or excessive memory consumption.
+
+======================================================
+
+5)What is the purpose continue statement in python?
+==>In python continue statement terminates all the remaining iteration and move the control back to the beginning of the loop for the next iteration.
+
+==>The continue statement can be used in both while and for loops. Here in this article we have explained continue statement examples with for and while loop.
+===========================================================
+
+6)Write python program that swap two number with temp variable and
+without temp variable.
+
+#'''Using a temporary variable'''
+x = 5
+y = 10
+
+#x = input('Enter value of x: ')
+#y = input('Enter value of y: ')
+
+
+temp = x
+x = y
+y = temp
+
+print("The value of x after swapping: ",x)
+print("The value of y after swapping: ",y)
+
+o/p:
+The value of x after swapping:  10
+The value of y after swapping:  5
+
+
+
+
+#with out temp variable.
+x = 5
+y = 10
+
+x, y = y, x
+print("x =", x)
+print("y =", y)
+
+o/p:
+x = 10
+y = 5
+===================================================
+7)Write a Python program to find whether a given number is even or odd,
+print out an appropriate message to the user.
+
+
+
+num = int(input("Enter a Number:")) 
+if num % 2 == 0: 
+  print("Given number is Even") 
+else: 
+  print("Given number is Odd")
+
+
+o/p:
+Enter a Number:56
+Given number is Even
+
+Enter a Number:33
+Given number is Odd
+======================================================
+8)Write a Python program to test whether a passed letter is a vowel or
+not.
+
+character = input("Enter a character: ")  
+    
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']  
+   
+if character in vowels:  
+    print(f"The character  is a vowel!")  
+else:  
+    print(f"The character is a not vowel!")  
+
+o/p:
+Enter a character: e
+The character 'e' is a vowel!
+
+Enter a character: w
+The character 'w' is a not vowel!
+========================================================
+9)Write a Python program to sum of three given integers. However, if
+two values are equal sum will be zero.
+
+num_1=int(input("enter a number"))
+num_2=int(input("enter a number"))
+num_3=int(input("enter a number"))
+sum=0
+
+if num_1==num_2==num_3:
+    print(sum)
+else:
+    total=num_1+num_2+num_3
+    sum=total
+    print("the sum is equal",sum)
+#same int will be ans 0
+#2 2 2=0
+#2 3 5=10
+
+
+o/p:
+enter a number2
+enter a number2
+enter a number2
+the sum is equal 0
+===========================================================
+10)Write a Python program that will return true if the two given integer
+values are equal or their sum or difference is 5.
+
+#5,5=true
+#2+3=true
+#10-5=true
+x = int(input("Enter the first integer: "))
+y = int(input("Enter the second integer: "))
+if x==y or abs(x-y)== 5 or (x+y)==5:
+    result= True
+else:
+    result= False
+
+    #abs method is (-int)makew positive value
+print(result)
+
+o/p:
+Enter the first integer 5
+Enter the second integer 5
+true
+
+Enter the first integer 6
+Enter the second integer 7
+false
+
+=================================================================
+11)Write a python program to sum of the first n positive integers.
+
+n = int(input("Enter a positive integer (n): "))
+sum = 0
+
+
+for i in range(1, n+1):
+    sum+= i
+
+print("The sum is", sum)
+
+o/p:
+Enter a positive integer (n): 3
+The sum is 6
+
+
+==================================================
+12)Write a Python program to calculate the length of a string.
+
+str = input("Enter a string: ")
+
+count = 0
+for i in str:
+      count = count+1
+print("Length of the input string is:", count)
+
+o/p:
+Enter a string: hello i am pammy
+Length of the input string is: 16
+===================================================
+13)Write a Python program to count the number of characters (character
+frequency) in a string.
+
+string =input("enter a string\n")
+char=input("enter the character to count in frequency\n")
+count=0
+
+for i in string:
+    if(i==char):
+        count=count+1
+print(f"the frequency of {char}in the string is:{count}")
+#character count
+
+o/p:
+enter a string
+pammy
+enter the character to count in frequency
+m
+the frequency of min the string is:2n 
+
+'''========================'''
+#dictionary key(REMOVED ARE SAME AS TWO ALPHABET)
+    
+str = "hellohowareyou"
+
+dict = {}
+
+for i in str:
+
+    if i in dict:
+        dict[i] += 1
+
+    else:
+        dict[i] = 1
+        
+print(dict)
+
+o/p:
+{'h': 2, 'e': 2, 'l': 2, 'o': 3, 'w': 1, 'a': 1, 'r': 1, 'y': 1, 'u': 1}
+====================================================================
+14)What are negative indexes and why are they used?
+
+Negative Indexing is used to in Python to begin slicing from the end of the string i.e. the last. Slicing in Python gets a sub-string from a string. The slicing range is set as parameters i.e. start, stop and step.
+
+Syntax
+Let us see the syntax −
+
+#slicing from index start to index stop-1
+arr[start:stop]
+
+# slicing from index start to the end
+arr[start:]
+
+# slicing from the beginning to index stop - 1
+arr[:stop]
+
+# slicing from the index start to index stop, by skipping step
+arr[start:stop:step]
+====================================================================
+15)Write a Python program to count occurrences of a substring in a string.
+
+str = 'python is popular programming language'
+print('Number of occurrence of p:', str.count('p'))
+print('Number of occurrence of o:', str.count('o'))
+print('Number of occurrence of l:', str.count('l'))
+print('Number of occurrence of m:', str.count('m'))
+
+
+
+'''=========================='''
+
+string = "how are you?how is it"
+substring = "how"
+
+count = string.count(substring)
+print("The count is:", count)
+
+
+o/p:
+Number of occurrence of p: 4
+Number of occurrence of o: 3
+Number of occurrence of l: 2
+Number of occurrence of m: 2
+The count is: 2
+=================================================================
+16)Write a Python program to count the occurrences of each word in a
+given sentence
+
+def word_count(str):
+    counts=dict()
+    words=str.split()
+
+    for word in words:
+         if word in counts:
+            counts[word]+=1
+         else:
+            counts[word]=1
+    return counts
+print("word counts:")
+
+print(word_count("the dog is black and cat is white and it is very cute animals."))
+#word are count in sentence
+
+o/p:
+word counts:
+{'the': 1, 'dog': 1, 'is': 3, 'black': 1, 'and': 2, 'cat': 1, 'white': 1, 'it': 1, 'very': 1, 'cute': 1, 'animals.': 1}
+===================================================================
+17)Write a Python program to get a single string from two given strings,
+separated by a space and swap the first two characters of each string.
+
+a = 'abc'
+b = 'xyz'
+print("Before Swap :",a," ",b)
+a1 = b[:2] + a[2:]
+b1 = a[:2] + b[2:]
+print("After Swap :",a1," ",b1)
+
+
+'''========================='''
+str1 = input("Please Enter First String : ")
+str2 =input("Please Enter Second String : ")
+ 
+x=str1[0:2]
+ 
+str1=str1.replace(str1[0:2],str2[0:2])
+ 
+str2=str2.replace(str2[0:2],x)
+ 
+print("Your first string has become :- ",str1)
+print("Your second string has become :- ",str2)
+
+o/p:
+Before Swap : abc   xyz
+After Swap : xyc   abz
+Please Enter First String : hello
+Please Enter Second String : hiii
+Your first string has become :-  hillo
+Your second string has become :-  heii
+========================================================================
+18)Write a Python program to add 'ing' at the end of a given string (length
+should be at least 3). If the given string already ends with 'ing' then add
+'ly' instead if the string length of the given string is less than 3, leave it
+unchanged.
+
+string = input()
+if len(string) < 3:
+  print(string)
+elif string[-3:] == 'ing':
+  print(string + 'ly')
+else:
+  print(string + 'ing')
+=================================================================
+19)Write a Python program to find the first appearance of the substring
+'not' and 'poor' from a given string, if 'not' follows the 'poor', replace the
+whole 'not'...'poor' substring with 'good'. Return the resulting string.
+
+str=input("enter a string:")
+
+pos_not=str.find("not")
+pos_poor=str.find("poor")
+
+print("not pos-",pos_not)
+print("poor pos-",pos_poor)
+
+if pos_not < pos_poor:
+    print(str[:pos_not]+"good")
+
+o/p:
+enter a string:i am feel not well but poor is well
+not pos- 10
+poor pos- 23
+i am feel good
+
+=================================================================
+20)Write a Python function that takes a list of words and returns the length
+of the longest one.
+
+word_list = ["apple","mango","cherry","watermelon"]
+
+longest_length = 0
+
+for word in word_list:
+    if len(word) > longest_length:
+        longest_length = len(word)
+
+print("Length of the longest word:", longest_length)
+
+o/p:
+Length of the longest word: 10
+
+==========================================================
+21)Write a Python function to reverses a string if its length is a multiple of
+4.
+
+def reverse_string(str1):
+   if len(str1) % 4 == 0:
+      return ''.join(reversed(str1))
+   return str1
+print(reverse_string('abcd'))
+print(reverse_string('ABCD'))
+   
+
+o/p:
+dcba
+DCBA
+===================================================
+22)Write a Python program to get a string made of the first 2 and the last
+2 chars from a given a string. If the string length is less than 2, return
+instead of the empty string.
+
+input_string=input("enter a string:")
+
+if len(input_string)<2:
+      result="empty string"
+else:
+      result=input_string[:2]+input_string[-2:]
+print("result:",result)
+
+o/p:
+enter a string:pammy
+result: pamy
+============================================================
+23)Write a Python function to insert a string in the middle of a string.
+
+orgn_string="hello,world!"
+string_insert="hii"
+
+middle_index=len(orgn_string)//2
+result_string=orgn_string[:middle_index]+string_insert+orgn_string[middle_index:]
+print(result_string)
+
+
+o/p:
+hello,hiiworld!
+=======================================================
+ 
+
+ 
